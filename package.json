@@ -1,0 +1,39 @@
+{
+  "name": "height-transition",
+  "version": "0.2.0",
+  "description": "Simple height transition for collapse elements.",
+  "main": "./dist/heightTransition.js",
+  "umd:main": "dist/heightTransition.umd.js",
+  "module": "dist/heightTransition.umd.m.js",
+  "files": [
+    "dist"
+  ],
+  "author": "Metin Süt <metindir@gmail.com>",
+  "homepage": "https://github.com/metinsut/height-transition",
+  "keywords": [
+    "react",
+    "hooks",
+    "height",
+    "transition",
+    "height-transition"
+  ],
+  "scripts": {
+    "start": "parcel ./example/index.html --out-dir exampleDist",
+    "build": "microbundle --jsx React.createElement"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "microbundle": "^0.11.0",
+    "parcel-bundler": "^1.12.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
