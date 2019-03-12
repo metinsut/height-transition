@@ -2,7 +2,7 @@
 Simple height transition for collapse elements.
 
 ## Installation
-This library written with react-hook so you have to install verison of react 16.8.4 or above.
+This library written with react-hook so you have to install version of react 16.8.4 or above.
 ```sh
 npm i height-transition -S
 ```
