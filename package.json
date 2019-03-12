@@ -1,6 +1,6 @@
 {
   "name": "height-transition",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple height transition for collapse elements.",
   "main": "./dist/heightTransition.js",
   "umd:main": "dist/heightTransition.umd.js",
